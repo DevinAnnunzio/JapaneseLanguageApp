@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white_background"
+    android:padding="16dp"
+    android:minHeight="@dimen/list_item_height"
+    android:layout_height="wrap_content">
+
+    <ImageView
+
+        android:id="@+id/japaneseImageView"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/japanese_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            tools:text="Ichi" />
+
+        <TextView
+            android:id="@+id/default_text_view"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/black"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="top"
+            tools:text="One"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

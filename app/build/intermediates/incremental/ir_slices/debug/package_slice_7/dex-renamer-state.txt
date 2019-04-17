@@ -1,0 +1,4 @@
+#Wed Mar 20 21:01:03 JST 2019
+base.0=/Users/devin/Projects/AndroidStudioProjects/JapaneseLanguageApp/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex
